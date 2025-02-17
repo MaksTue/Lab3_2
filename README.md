@@ -9,18 +9,6 @@
    cd yolo-object-detection
    ```
 
-2. **Создаем и активируем виртуальное окружение (рекомендуется):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # для macOS/Linux
-   venv\Scripts\activate  # для Windows
-   ```
-
-3. **Устанавливаем зависимости:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## ⚙️ Запуск сервиса BentoML
 
 1. **Запускаем BentoML сервис:**
