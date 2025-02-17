@@ -1,0 +1,15 @@
+service: "bentoml_yolo_service:svc"
+description: "BentoML service for YOLOv8 object detection"
+labels:
+  app: "yolo_detection"
+  version: "1.0"
+include:
+  - "*.py"
+  - "best.pt"
+python:
+  packages:
+    - ultralytics
+    - bentoml
+    - numpy
+    - pillow
+    - requests
